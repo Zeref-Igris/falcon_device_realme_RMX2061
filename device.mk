@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     libvolumelistener
 
 PRODUCT_PACKAGES += \
+    audio.primary.default \
     audio.usb.default \
     audio.usbv2.default \
     audio.r_submix.default \
