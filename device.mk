@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audio.usb.default \
+    audio.usbv2.default \
     audio.r_submix.default \
     libaudio-resampler
 
