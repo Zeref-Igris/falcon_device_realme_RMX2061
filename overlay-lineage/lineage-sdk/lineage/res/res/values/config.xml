@@ -24,8 +24,8 @@
         <item>restart</item>
         <item>restart_recovery</item>
         <item>restart_bootloader</item>
-        <item>restart_fastboot</item>
-    </string-array>
+        <item>restart_sysui</item>
+     </string-array>
 
     <!-- Whether to post reset runnable for all clients. Needed for some older
          vendor fingerprint HAL implementations. -->
