@@ -138,6 +138,12 @@ persist.sys.sf.color_mode=9
 ro.launcher.blur.appLaunch=0
 
 # Graphics
+debug.sf.enable_egl_image_tracker=1
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.has_HDR_display=false
+ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.use_color_management=false
+ro.surface_flinger.has_wide_color_display=false
 debug.sdm.support_writeback=0
 
 # FM
