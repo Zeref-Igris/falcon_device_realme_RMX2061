@@ -10,14 +10,14 @@ $(call inherit-product, device/realme/RMX2061/device.mk)
 # Hotword
 $(call inherit-product, vendor/realme/hotword/google.mk)
 
-# DerpFest Flags
+# riceDroid Flags
 SUSHI_BOOTANIMATION := 1080
 WITH_GMS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BUILD_APERTURE_CAMERA := true
-TARGET_USE_PIXEL_FINGERPRINT := true
-TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_USE_PIXEL_FINGERPRINT := false
+TARGET_USE_GOOGLE_TELEPHONY := false
 TARGET_ENABLE_PIXEL_GBOARD_PADDINGS := false
 
 # Inherit some common stuff
