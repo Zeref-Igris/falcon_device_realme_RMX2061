@@ -19,6 +19,7 @@ TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_USE_PIXEL_FINGERPRINT := true
 TARGET_USE_GOOGLE_TELEPHONY := true
 TARGET_ENABLE_PIXEL_GBOARD_PADDINGS := false
+TARGET_DISABLE_EPPE := true
 
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
