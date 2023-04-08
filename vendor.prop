@@ -142,6 +142,7 @@ ro.launcher.blur.appLaunch=0
 
 # Graphics
 debug.sdm.support_writeback=0
+debug.hwui.renderer=opengl
 
 # FM
 vendor.hw.fm.init=0
