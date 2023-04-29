@@ -144,6 +144,8 @@ ro.launcher.blur.appLaunch=0
 debug.sf.enable_egl_image_tracker=1
 
 # Graphics
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.skia_atrace_enabled=false
 debug.sdm.support_writeback=0
 
 # FM
