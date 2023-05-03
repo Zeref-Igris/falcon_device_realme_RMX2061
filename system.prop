@@ -136,6 +136,8 @@ persist.sys.fflag.override.settings_provider_model=false
 
 # Render
 debug.cpurend.vsync=false
+debug.renderengine.backend=gles
+debug.hwui.renderer=opengl
 
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
