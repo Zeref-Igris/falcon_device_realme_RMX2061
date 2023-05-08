@@ -18,7 +18,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_LEGACY_BOOTANIMATION := false
 
-TARGET_DISABLE_EPPE := true
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_ENABLE_PIXEL_GBOARD_PADDINGS := false
 
 # Inherit some common stuff
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
